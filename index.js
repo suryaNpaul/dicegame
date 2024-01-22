@@ -21,4 +21,8 @@ function randomDice() {
   dice_sound.play();
 }
 
+function loaderToggle(){
+  const loading = document.getElementById("loader");
+  loading.style.display = "none";
+}
 // document.querySelector("button").addEventListener("click", randomDice);
