@@ -26,7 +26,4 @@ function loaderToggle() {
   loading.style.display = "none";
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-  loaderToggle();
-});
 // document.querySelector("button").addEventListener("click", randomDice);
